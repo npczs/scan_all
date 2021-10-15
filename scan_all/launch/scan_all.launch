@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+   <node pkg="scan_all" type="scan2cloudpoint" name="scan2cloudpoint" />
+   <node pkg="scan_all" type="scan_22cloudpoint" name="scan_22cloudpoint" />
+   <node pkg="scan_all" type="point_all" name="point_all" />
+</launch>
